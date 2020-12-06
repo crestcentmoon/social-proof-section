@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/bg-pattern-desktop.png);
+  font-family: Spartan, sans-serif;
+  /* margin: 150px 10% 100px; */
+}
+/* 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  } */
+
+.top {
+  margin: 150px 10% 100px;
+  display: flex;
+}
+
+.top p {
+  font-size: 72px;
+  font-weight: 700;
+  font-style: bold;
+  color: hsl(300, 43%, 22%);
+}
+
+.top .description {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.section-left {
+  margin: 15px 150px;
+}
+
+.stack {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin: 40px 100px 20px;
+  padding: 20px 50px;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+}
+
+.stack p {
+  font-size: 15px;
+}
+
+.stack.one {
+}
+
+.stack.two {
+}
+
+/* .stack.three {
+  margin-left: 285px;
+}  */
+
+.bottom {
+  margin: 150px 10% 100px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  border-radius: 60px;
+  padding: 20px;
+}
+
+h5 {
+  flex-direction: column;
+}
+
+.card.one {
+  background-color: hsl(300, 43%, 22%);
+}
+
+.card.two {
+  background-color: hsl(300, 43%, 22%);
+}
+
+.card.three {
+  background-color: hsl(300, 43%, 22%);
+}
