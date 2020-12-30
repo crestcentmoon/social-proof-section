@@ -6,44 +6,70 @@
 body {
   background-image: url(images/bg-pattern-desktop.png);
   font-family: Spartan, sans-serif;
-  /* margin: 150px 10% 100px; */
+  font-size: 15px;
 }
-/* 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  } */
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
 
 .top {
-  margin: 150px 10% 100px;
   display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  flex-wrap: wrap;
 }
 
-.top p {
-  font-size: 72px;
+.top h1 {
+  font-size: 50px;
   font-weight: 700;
   font-style: bold;
+  margin-bottom: 20px;
   color: hsl(300, 43%, 22%);
 }
 
-.top .description {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  font-size: 20px;
+.top p {
+  font-size: 18px;
 }
 
+.customer-rating {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: hsl(300, 24%, 96%);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 13px;
+  font-size: 13px;
+}
+
+.text h3 {
+  color: hsl(300, 43%, 22%);
+}
+
+.rating-img {
+  margin-right: 10px;
+}
+
+.stack-two {
+  margin-left: 14px;
+}
+
+.stack-three {
+  margin-left: 25px;
+}
+
+/*
+
 .section-left {
-  margin: 15px 150px;
+  margin: 15px 0px 50px 15px;
 }
 
 .stack {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  margin: 40px 100px 20px;
+  margin: 40px 0px 50px 50px;
   padding: 20px 50px;
   background-color: hsl(300, 24%, 96%);
   border-radius: 10px;
@@ -52,16 +78,6 @@ body {
 .stack p {
   font-size: 15px;
 }
-
-.stack.one {
-}
-
-.stack.two {
-}
-
-/* .stack.three {
-  margin-left: 285px;
-}  */
 
 .bottom {
   margin: 150px 10% 100px;
@@ -100,4 +116,4 @@ h5 {
 
 .card.three {
   background-color: hsl(300, 43%, 22%);
-}
+} */
