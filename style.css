@@ -22,10 +22,10 @@ body {
 }
 
 .top h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   font-style: bold;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: hsl(300, 43%, 22%);
 }
 
@@ -33,12 +33,16 @@ body {
   font-size: 18px;
 }
 
+.section-left {
+  margin-top: 65px;
+}
+
 .customer-rating {
   display: flex;
   flex-wrap: wrap;
   background-color: hsl(300, 24%, 96%);
-  padding: 10px 20px;
-  border-radius: 10px;
+  padding: 17px 50px;
+  border-radius: 6px;
   margin-bottom: 13px;
   font-size: 13px;
 }
@@ -48,47 +52,38 @@ body {
 }
 
 .rating-img {
-  margin-right: 10px;
+  margin-right: 25px;
+}
+
+.stack-one {
+  margin-bottom: 20px;
+  margin-right: 120px;
 }
 
 .stack-two {
-  margin-left: 14px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+  margin-left: 39px;
 }
 
 .stack-three {
-  margin-left: 25px;
-}
-
-/*
-
-.section-left {
-  margin: 15px 0px 50px 15px;
-}
-
-.stack {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  margin: 40px 0px 50px 50px;
-  padding: 20px 50px;
-  background-color: hsl(300, 24%, 96%);
-  border-radius: 10px;
-}
-
-.stack p {
-  font-size: 15px;
+  margin-left: 80px;
 }
 
 .bottom {
-  margin: 150px 10% 100px;
+  margin-top: 70px;
+}
+
+.review-card {
   display: flex;
-  box-sizing: border-box;
+  justify-content: space-between;
 }
 
 .card {
-  padding: 30px;
-  box-sizing: border-box;
-  margin: 50px auto;
+  width: 450px;
+  height: 200px;
+  background-color: hsl(300, 43%, 22%);
+  padding: 20px;
   border-radius: 10px;
 }
 
@@ -97,23 +92,91 @@ body {
   align-items: center;
 }
 
-img {
+.profile-avatar img {
+  width: 50px;
+  height: auto;
   border-radius: 60px;
-  padding: 20px;
+  padding: 10px;
 }
 
-h5 {
-  flex-direction: column;
+.profile h4 {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 3px;
+}
+
+.profile h5 {
+  font-size: 10px;
+  color: hsl(333, 80%, 67%);
+  margin-bottom: 3px;
+}
+
+.review {
+  padding: 7px;
+}
+
+.review p {
+  font-size: 13px;
+  color: white;
+  margin-top: 15px;
 }
 
 .card.one {
-  background-color: hsl(300, 43%, 22%);
+  margin-right: 15px;
 }
 
 .card.two {
-  background-color: hsl(300, 43%, 22%);
+  margin-top: 20px;
+  margin-right: 15px;
 }
 
 .card.three {
-  background-color: hsl(300, 43%, 22%);
-} */
+  margin-top: 45px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+@media (max-width: 375px) {
+  .top h1 {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .top p {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .stack-two {
+    margin-left: 0;
+  }
+
+  .stack-three {
+    margin-left: 0;
+  }
+
+  .rating-img {
+    margin-right: 0;
+  }
+
+  .customer-rating {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .card {
+    width: 80%;
+    margin-top: 16px;
+  }
+
+  .review-card {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+}
